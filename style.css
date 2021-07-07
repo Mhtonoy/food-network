@@ -7,6 +7,15 @@ h1{
     font-size: 40px;
     color: rgb(83, 81, 81);
 }
+h2{
+    color: rgb(83, 81, 81);
+}
+h3{
+    color: rgb(83, 81, 81);
+}
+span{
+    color: orange;
+}
 .flex-container{
     display: flex;
 }
@@ -29,9 +38,6 @@ h1{
 }
 #top-banner-img-id{
     width: 100%;
-}
-.top-banner div span{
-    color: orange;
 }
 .top-banner div p{
     margin-bottom: 40px;
@@ -98,5 +104,42 @@ h1{
 .third-width p{
     text-align: left;
 }
-
 /* Specific Style for Recepies Section End*/
+
+/* Specific Style for Gallery Section Start */
+    .gallery{
+        margin-top: 50px;
+        text-align: center;
+        background-image: url(images/shapes/Frame\ 57.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .gallery h2{
+        padding-top: 10px;
+    }
+    .gallery div{
+        margin-bottom: 50px;
+    }
+    .gallery div:last-child{
+        margin-bottom: 1px;
+    }
+    .gallery img{
+        text-align: center;
+        width: 20%;
+        height: 250px;
+        margin-left: 4%;
+        border-radius: 10px;
+    }
+
+/* Specific Style for Gallery Section End */
+
+/* Specific Style for Footer Section Start */
+    footer{
+        background-color: black;
+        text-align: center;
+        padding: 20px 0 80px 0;
+    }
+    footer p{
+        color: white;
+    }
+/* Specific Style for Footer Section End */
